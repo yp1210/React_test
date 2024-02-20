@@ -55,7 +55,7 @@ function App() {
       <span>{count}</span>
       <button onClick={() => {dispatch(de())}}>-</button>
       <button onClick={() => {dispatch(de(20))}}>-20</button>
-      <button onClick={() => {dispatch(setPromiseTime())}}>动态获取时间1</button>
+      <button onClick={() => {dispatch(setPromiseTime())}}>动态获取时间12</button>
       <div>{nowDate}</div>
     </div>
   );
